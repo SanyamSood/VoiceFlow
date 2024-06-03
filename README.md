@@ -1,2 +1,14 @@
 # Voiceflow
-This is a model which can provide a real time transcript and also transcript of audio files and it can also be used to get suggestions based on transcriptions.
+VoiceFlow is an AI-powered web service for real-time transcription and summarization of audio recordings. The project leverages advanced machine learning models and cloud technologies to provide fast, accurate transcriptions and insightful summaries.
+
+Features
+Real-Time Audio Processing: Divides live audio into 2-second chunks for efficient cloud upload and processing.
+Accurate Transcription: Utilizes the Whisper model for fast and precise transcription of audio segments.
+Advanced Summarization: Integrates an LLM model to summarize transcriptions and generate meeting questions based on user prompts.
+User-Friendly Interface: Provides a seamless web interface for recording audio, viewing transcriptions, and accessing summaries.
+Scalable Cloud Infrastructure: Ensures reliable and scalable audio processing through cloud integration.
+Usage
+Record Audio: Use the web interface to record live audio.
+Processing: The audio is divided into chunks and uploaded to the cloud for processing.
+Transcription: The Whisper model transcribes the audio chunks.
+Summarization: The LLM model generates summaries and responses to user prompts.
